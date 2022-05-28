@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(../img/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #ffff;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0px;
+    margin-right: 24px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FE9000;
+}
+.banner_right_side{
+    color: #fff;
+}
+.banner_right_side h1{
+    font-family: 'Oswald', sans-serif;
+    color: #FE9000;
+    font-size:72px;
+}
+.banner_right_side p{
+   padding: 16px 0px;
+}
+.banner_right_side .Contact , .About_section .Contact{
+    color: #17171E;
+    background-color: #FE9000;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #FE9000;
+    transition: .2s all ease-in-out;
+    max-width: fit-content;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.banner_right_side .Contact:hover ,.About_section .Contact:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #FE9000;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #23232b57;
+}
+.About_section{
+    background-color: #17171E;
+}
+.About_section h1{
+    font-family: 'Oswald', sans-serif;
+    color: #FE9000;
+    font-size: 72px;
+}
+
+.About_section .About_part{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+.Third_section{
+    background-color: #17171E;
+    background-image: url(../img/Yellow-Shap-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.Third_section .hg{
+    min-height: 285vh;
+}
+
+.Third_section .Third_section_content{
+    margin-top: 500px;
+    color: #ffff;
+}
+.Third_section .Third_section_content h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+}
+.Third_section .Third_section_content p{
+
+}
+.Food_Gallery{
+    background-color: #17171E;
+}
+.Food_Gallery h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.Food_section{
+    background-image: url(../img/banner_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Food_section .hg{
+    min-height: 100vh;
+}
+.Food_section_content{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+.Food_section_content h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700px;
+}
+.Food_section_content p{
+
+}
+.Food_section .squre_border{
+    border: 2px solid #FE9000;
+    text-align: center;
+    padding: 50px 40px;
+    
+}
+
+.our_menu{
+    background-color: #17171E;
+}
+.our_menu .title{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.our_menu .title h1{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+}
+.our_menu .content{
+    padding-bottom: 100px;
+}
+.our_menu .content h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #FE9000;
+}
+.our_menu .content p{
+    color: #fff;
+    margin: 0px;
+}
+.our_menu .content h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #FE9000;
+}
+.last_section{
+    background-color: #17171E;
+    background-image: url(../img/footer_banner_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.last_section .hg{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: end;
+}
+.last_section .last_section_content{
+
+}
+.last_section .last_section_content h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+}
+.last_section .last_section_content p{
+    color: #17171E;
+    font-weight: 700px;
+}
+footer{
+    background-color: #17171E;
+    min-height: 60vh;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_menu ul{
+    list-style: none;
+}
+.footer_menu ul li{
+    float: left;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.footer_menu ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: .2s all ease-in-out;
+}
+.footer_menu ul li a:hover{
+    color: #FE9000;
+}
+.footer_social_icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer_social_icon ul{
+    list-style: none;
+}
+.footer_social_icon ul li{
+    background: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer_social_icon ul li a i{
+    font-size: 25px;
+    padding: 15px;
+    transition: .2s all ease-in-out;
+}
+.footer_social_icon ul li a i:hover{
+    background-color: #FE9000;
+    color: #17171E;
+}
+.navbar-toggler span i {
+    color: #fff;
+}
+
+
+/* BGB 2020 DHA 463209 2018 CUM 198804 59 CHHAGALNAIYA
+BGB YES PIN MOBILE NUMBER */
+
+.About_section .zoom_effet{
+    overflow: hidden;
+}
+.About_section .zoom_effet img{
+    transition: .4s all ease-in-out;
+}
+.About_section .zoom_effet:hover img{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  
+}
+.Food_Gallery .zoom_effet{
+    overflow: hidden;
+}
+.Food_Gallery .zoom_effet img{
+    transition: .4s all ease-in-out;
+}
+.Food_Gallery .zoom_effet:hover img{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  
+}
+
+  

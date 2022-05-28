@@ -1,0 +1,99 @@
+@media (max-width:414px) and (min-width:0px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        text-align: center;
+    }
+    .navbar-light .navbar-brand{
+        display: none;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        justify-content: end;
+    }
+    .banner_right_side h1{
+        font-size: 50px;
+    }
+    .banner_right_side .Contact, .About_section .Contact{
+        margin-bottom: 30px;
+    }
+    .Third_section .Third_section_content h1 , .Food_Gallery h1 , .our_menu .title h1 , .last_section .last_section_content h1{
+        font-size: 54px;
+    }
+    .footer_logo a img {
+        width: 70%;
+    }
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_menu ul{
+        padding: 0px;
+        margin-left: 60px;
+    }
+    .Food_Gallery img{
+        margin-bottom: 15px;
+    }
+   
+}
+@media (max-width:360px) and (min-width:0px) {
+    .footer_menu ul{
+        margin-left: 38px;
+    }
+    .footer_logo{
+        text-align: center;
+    }
+}
+@media (max-width:320px) and (min-width:0px) {
+    .footer_menu ul {
+        margin-left: 58px;
+    }
+    .footer_social_icon ul li a i {
+        font-size: 18px;
+        padding: 11px;
+    }    
+    .Food_Gallery img{
+        margin-bottom: 15px;
+    }
+
+}
+@media (max-width:425px) and (min-width:415px) {
+    .banner_right_side .Contact, .About_section .Contact{
+        margin-bottom: 30px;
+    }
+    .Third_section .Third_section_content h1 , .Food_Gallery h1 , .our_menu .title h1 , .last_section .last_section_content h1{
+        font-size: 55px;
+    }
+    .banner_right_side h1{
+        font-size: 50px;
+    }
+    .footer_logo a img {
+        width: 70%;
+    }
+    .footer_logo{
+      text-align: center;
+    }
+    .Food_Gallery img{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:767px) and (min-width:426px) {
+    .banner_right_side .Contact, .About_section .Contact{
+        margin-bottom: 30px;
+    }
+    .Food_Gallery img{
+        margin-bottom: 15px;
+    }
+    .footer_social_icon ul li a i {
+        font-size: 18px;
+        padding: 11px;
+    }
+}
+@media (max-width:991px) and (min-width:768px) {
+    .banner_right_side .Contact, .About_section .Contact{
+        margin-bottom: 30px;
+    }
+    .last_section .last_section_content h1{
+        font-size: 55px;
+    }
+    .Third_section .Third_section_content h1 {
+
+    font-size: 50px;
+}
+}
